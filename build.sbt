@@ -16,6 +16,6 @@ nativeConfig ~= { c =>
 }
 
 libraryDependencies ++= List(
-  "com.softwaremill.sttp.client4" %% "core_native0.4" % "4.0.0-M1",
-  "org.typelevel" %% "cats-effect_native0.4" % "3.5.1"
+  "com.softwaremill.sttp.client4" %%% "core" % "4.0.0-M2",
+  "org.typelevel" %%% "cats-effect" % "3.5.1"
 )
